@@ -1,0 +1,16 @@
+{
+  "name": "Sri Lakshmi Clinic (sample)",
+  "category": "clinic",
+  "area": "Peelamedu",
+  "city": "Coimbatore",
+  "languages": ["Tamil", "English"],
+  "services": [
+    {"name": "General consultation", "price_inr": 300},
+    {"name": "Follow-up visit", "price_inr": 150}
+  ],
+  "hours": {"open": "17:00", "close": "21:00"},
+  "slot_minutes": 15,
+  "closed_days": ["Sunday"],
+  "required_documents": ["Previous prescription, if any"],
+  "sample": true
+}

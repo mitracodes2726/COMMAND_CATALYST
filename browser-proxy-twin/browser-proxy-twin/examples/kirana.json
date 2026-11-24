@@ -1,0 +1,16 @@
+{
+  "name": "Ganesh Kirana Store (sample)",
+  "category": "kirana",
+  "area": "RS Puram",
+  "city": "Coimbatore",
+  "languages": ["Tamil", "English"],
+  "services": [
+    {"name": "Store pickup slot", "price_inr": 0},
+    {"name": "Home delivery", "price_inr": 30}
+  ],
+  "hours": {"open": "07:00", "close": "21:00"},
+  "slot_minutes": 30,
+  "closed_days": [],
+  "required_documents": [],
+  "sample": true
+}

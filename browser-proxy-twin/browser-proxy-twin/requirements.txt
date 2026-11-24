@@ -1,0 +1,1 @@
+# No third-party dependencies: the prototype uses only the Python 3.10+ standard library.

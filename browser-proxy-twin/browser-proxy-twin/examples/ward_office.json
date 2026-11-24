@@ -1,0 +1,15 @@
+{
+  "name": "Ward Office, Ward 12 (sample)",
+  "category": "office",
+  "area": "Ward 12",
+  "city": "Coimbatore",
+  "languages": ["Tamil", "English"],
+  "services": [
+    {"name": "Certificate application help", "price_inr": 0}
+  ],
+  "hours": {"open": "10:00", "close": "17:00"},
+  "slot_minutes": 15,
+  "closed_days": ["Saturday", "Sunday"],
+  "required_documents": ["Aadhaar", "Ration card", "Address proof"],
+  "sample": true
+}

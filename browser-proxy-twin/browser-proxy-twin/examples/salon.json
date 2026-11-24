@@ -1,0 +1,17 @@
+{
+  "name": "Priya Ladies Salon (sample)",
+  "category": "salon",
+  "area": "Gandhipuram",
+  "city": "Coimbatore",
+  "languages": ["Tamil", "English"],
+  "services": [
+    {"name": "Haircut", "price_inr": 200},
+    {"name": "Facial", "price_inr": 500},
+    {"name": "Hair spa", "price_inr": 700}
+  ],
+  "hours": {"open": "10:00", "close": "20:00"},
+  "slot_minutes": 60,
+  "closed_days": ["Monday"],
+  "required_documents": [],
+  "sample": true
+}
