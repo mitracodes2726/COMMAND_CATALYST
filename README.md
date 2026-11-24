@@ -9,9 +9,8 @@ Instead of your AI agent clicking through a company's human-designed website, it
 | **Team** | COMMAND CATALYST (Team ID `4ee6d85c`) |
 | **Event** | wHACKiest 2026 online ideathon, Ramaiah Institute of Technology, 26-27 Nov 2026 |
 | **Track** | Beyond the Browser *(edit if your registered track differs)* |
-| **Demo video** | `ADD YOUTUBE LINK` |
-| **Live link** | `ADD LINK (optional)` |
-| **Pitch deck** | [`docs/assets/pitch-deck.pdf`](docs/assets/) *(add your PDF)* |
+| **Demo video** | `https://www.youtube.com/watch?v=5ys9sIMIq_Q` |
+| **Pitch deck** | `\docs\wHACKiest26.pptx` |
 
 ---
 
@@ -30,9 +29,8 @@ A hosted **agent card** layer that makes any business reachable by agents:
 3. **Open protocol.** Five small JSON messages (see [PROTOCOL.md](PROTOCOL.md)) and a directory searchable by category and area.
 4. **User agent.** Understands "Book a haircut tomorrow evening", discovers cards, compares shops, falls back to the next shop if an owner declines, and asks the **user to approve** before booking.
 
-![Pictorial diagram showing how a shopkeeper publishes a business card and a user's agent discovers and books the shop with owner and user approval.](docs/assets/browser-proxy-twin-flow.svg)
 
-More detail: [docs/architecture.md](docs/architecture.md) · How this differs from A2A, MCP and ONDC: [docs/comparison.md](docs/comparison.md)
+More detail: [docs/architecture_README.md](docs/architecture.md) · How this differs from A2A, MCP and ONDC: [docs/comparison.md](docs/comparison.md)
 
 ---
 
@@ -41,7 +39,7 @@ More detail: [docs/architecture.md](docs/architecture.md) · How this differs fr
 Requires **Python 3.10+**. There are **no third-party dependencies**.
 
 ```bash
-git clone https://github.com/<your-username>/browser-proxy-twin.git
+git clone https://github.com/mitracodes2726/COMMAND_CATALYST.git
 cd browser-proxy-twin
 
 ./run_demo.sh            # or: python3 -m proxytwin.demo
